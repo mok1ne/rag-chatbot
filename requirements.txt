@@ -1,0 +1,29 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# Anthropic — прямой API (не Bedrock)
+anthropic==0.40.0
+
+# LangChain
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-openai==0.2.9
+langchain-text-splitters==0.3.3
+
+# Pinecone — новый SDK (v3+)
+pinecone==5.0.1
+
+# PDF
+pypdf==5.1.0
+
+# Frontend
+streamlit==1.40.0
+
+# Конфиг
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# OpenAI (только для эмбеддингов — text-embedding-3-small)
+openai==1.54.0
